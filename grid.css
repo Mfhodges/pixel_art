@@ -1,0 +1,10 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.item {
+  max-width: 500px;
+  min-width: 360px;
+}

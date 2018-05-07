@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     font-family: 'MinecraftiaRegular',Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -8,20 +8,32 @@ body, html {
     font-style: normal;
 
 }
+header {
+  padding: 25px 0px 40px 0px;
+}
 
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
 }
 
 .item {
   max-width: 500px;
-  min-width: 360px;
+  min-width: 410px;
+  min-height: 400px;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-color: black;
 }
 
 .item, h1 {
   text-align: center;
+}
+
+
+.header_credits {
+  float: right;
+  padding-right: 10%;
 }

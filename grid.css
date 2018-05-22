@@ -19,19 +19,32 @@ header {
 }
 
 .item {
+  /*position: absolute;*/
   max-width: 500px;
   min-width: 410px;
   min-height: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   border-style: solid;
   border-color: black;
+  box-shadow: 3px 8px 29px 0px rgba(0,0,0,0.77);
+  -webkit-box-shadow: 3px 8px 29px 0px rgba(0,0,0,0.77);
+  -moz-box-shadow: 3px 8px 29px 0px rgba(0,0,0,0.77);
+}
+
+.item, p{
+
 }
 
 .item, h1 {
+  padding-top: 6px;
   text-align: center;
 }
 
+.title {
+  padding-left:60%;
+}
 
 .header_credits {
   float: right;
